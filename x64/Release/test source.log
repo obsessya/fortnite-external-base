@@ -1,0 +1,107 @@
+﻿  test source.cpp
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(107,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(108,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(110,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(111,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(255,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\std\Desktop\Test Source\test source\reversing\ida.hpp(103,1): warning C4005: 'LOBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(206): message : see previous definition of 'LOBYTE'
+C:\Users\std\Desktop\Test Source\test source\reversing\ida.hpp(104,1): warning C4005: 'LOWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(204): message : see previous definition of 'LOWORD'
+C:\Users\std\Desktop\Test Source\test source\reversing\ida.hpp(106,1): warning C4005: 'HIBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(207): message : see previous definition of 'HIBYTE'
+C:\Users\std\Desktop\Test Source\test source\test source.cpp(8,17): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\std\Desktop\Test Source\test source\driver\m_driver.hpp(222,17): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-vectors.hpp(128): message : see reference to function template instantiation 'type driver::drive::read<uintptr_t>(const uintptr_t)' being compiled
+          with
+          [
+              type=uintptr_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: 'argument': conversion from 'const wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Users\std\Desktop\Test Source\test source\stdafx\stdafx.hpp(38): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\std\Desktop\Test Source\test source\stdafx\stdafx.hpp(38): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: 'argument': conversion from 'char16_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<char16_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=char16_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<char16_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=char16_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<char16_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=char16_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<char16_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=char16_t *
+          ]
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-offsets.hpp(220): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=char16_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<char16_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-offsets.hpp(220): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=char16_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<char16_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Generating code
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-offsets.hpp(357): warning C4715: 'aGameStateBase::PlayerArray': not all control paths return a value
+C:\Users\std\Desktop\Test Source\test source\reversing\entity-offsets.hpp(396): warning C4715: 'UWorldd::GameState': not all control paths return a value
+  42 of 387 functions (10.9%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  test source.vcxproj -> C:\Users\std\Desktop\Test Source\test source\x64\Release\test source.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

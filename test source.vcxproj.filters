@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{404b3d4e-dc47-484a-a240-1a86161f61eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\dispatch">
+      <UniqueIdentifier>{f6313e69-f0a5-4ee1-bc06-b96c4fe3d6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reversing">
+      <UniqueIdentifier>{3df2a600-5845-4803-8a14-b452233d83fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{0b2f1807-0468-41d1-a6da-50a6c0ffff90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xpedal kurwa">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="reversing\ida">
+      <UniqueIdentifier>{e27712c5-fcdd-465a-9c5c-677826c627dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reversing\decrypt">
+      <UniqueIdentifier>{1aa34bf3-5b0f-40fd-b9c4-fe4e373dd3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threads">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="axor">
+      <UniqueIdentifier>{2718c889-b575-4e8e-bc7f-d669bf8f60b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test source.cpp">
+      <Filter>xpedal kurwa</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\m_driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver\m_defines.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\m_driver.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\stdafx.hpp">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\entity-thread.hpp">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="reversing\entity-offsets.hpp">
+      <Filter>reversing</Filter>
+    </ClInclude>
+    <ClInclude Include="reversing\entity-structs.hpp">
+      <Filter>reversing</Filter>
+    </ClInclude>
+    <ClInclude Include="axor\xor.h">
+      <Filter>axor</Filter>
+    </ClInclude>
+    <ClInclude Include="reversing\entity-vectors.hpp">
+      <Filter>reversing</Filter>
+    </ClInclude>
+    <ClInclude Include="reversing\ida.hpp">
+      <Filter>reversing\ida</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="driver\direct.asm">
+      <Filter>driver\dispatch</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="driver\direct.obj">
+      <Filter>driver\dispatch</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
